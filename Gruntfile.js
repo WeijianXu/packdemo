@@ -51,7 +51,7 @@ module.exports = function(grunt) {
         dest: 'dist/grunt/public/scripts/all.min.js'
       },
       lib: {
-        src: ['build/byGrunt/lib/**/*.js'],
+        src: ['build/byGrunt/public/lib/**/*.js'],
         dest: 'dist/grunt/public/lib/all.lib.min.js'
       }
     },

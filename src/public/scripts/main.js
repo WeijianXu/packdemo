@@ -14,10 +14,11 @@ Test.prototype.setName = function(name) {
 	this.name = name;
 };
 
-function subTest() {
+function SubTest() {
     this.name = null;
 }
 
-subTest.prototype = Object.create(Test);
-subTest.prototype.constructor = subTest;
-subTest.setName('xuweijian');
+SubTest.prototype = Object.create(Test.prototype);
+SubTest.prototype.constructor = SubTest;
+var sub = new SubTest();
+sub.setName('xuweijian');
