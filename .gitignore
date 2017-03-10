@@ -1,0 +1,11 @@
+node_modules
+bower_components
+test/bower_components
+
+# build and publish
+build
+dist
+
+# log 
+.log
+npm-debug.log

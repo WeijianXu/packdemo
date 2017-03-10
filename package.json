@@ -1,0 +1,29 @@
+{
+  "name": "packdemo",
+  "version": "1.0.0",
+  "description": "pack the examples via grunt/gulp/webpack/rollup",
+  "main": "app.js",
+  "author": "xuweijian <dlmu_xwj2012@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^2.1.0",
+    "gulp-watch": "^4.3.11",
+    "pump": "^1.0.2"
+  }
+}
