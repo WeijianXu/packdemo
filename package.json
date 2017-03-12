@@ -14,16 +14,20 @@
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.2.0",
     "grunt-contrib-watch": "^1.0.0",
-    "jshint": "^2.9.4",
-    "jshint-stylish": "^2.2.1"
-  },
-  "dependencies": {
     "gulp": "^3.9.1",
     "gulp-batch": "^1.0.5",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
     "gulp-uglify": "^2.1.0",
     "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
     "pump": "^1.0.2"
+  },
+  "dependencies": {
+    "css-loader": "^0.27.1",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
   }
 }
